@@ -1,0 +1,11 @@
+body {
+  font-family: Arial;
+}
+
+div#chat {
+  overflow: auto;
+  word-wrap:
+  break-word;
+  height: 25em;
+  border: 1px grey solid;
+}
