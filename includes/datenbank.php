@@ -9,7 +9,7 @@ private $db;
   }
 
   function getDB() {
-    return $this->db = new mysqli("localhost", "root", "terraria", "chat");
+    return $this->db = new mysqli("IP-to-MySQL-Server", "username", "password", "name-of-database");
   }
 
 }
